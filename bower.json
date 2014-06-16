@@ -1,20 +1,19 @@
 {
-  "name": "give-pusher",
-  "dependencies": {},
+  "name": "angular-give-pusher",
   "version": "0.0.1",
-  "main": "lib/angular-pusher.js",
-  "keywords": [
-    "pusher",
-    "realtime",
-    "cloud",
-    "websockets",
-    "angular"
-  ],
+  "main": "lib/angular-give-pusher.js",
+  "keywords": ["pusher", "realtime", "cloud", "websocket", "angular"],
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "pusher": "~2.2.2"
+  },
+  "devDependencies": {
+    "angular": "~1.2.18"
+  }
 }
