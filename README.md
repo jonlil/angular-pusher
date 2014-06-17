@@ -12,8 +12,8 @@ bower install angular-give-pusher
 ```
 
 ```html
-  <script src="/path_to_bower_components/angular-give-pusher/lib/angular-give-pusher.js"></script>
   <script src="/path_to_bower_components/pusher/dist/pusher.js"></script>
+  <script src="/path_to_bower_components/angular-give-pusher/lib/angular-give-pusher.js"></script>
 ```
 
 
