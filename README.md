@@ -3,8 +3,22 @@ angular-pusher
 
 Wrapper for pusher.com
 
-```js
+### Installation
 
+```cli
+bower install angular-give-pusher
+```
+
+```html
+  <script src="/path_to_bower_components/angular/angular.js"></script>
+  <script src="/path_to_bower_components/pusher/dist/pusher.js"></script>
+  <script src="/path_to_bower_components/angular-give-pusher/lib/angular-give-pusher.js"></script>
+```
+
+
+### Usage
+
+```js
 angular.module('testApp', ['give.pusher'])
     .config(['givePusherProvider', function($givePusherProvider) {
         $givePusherProvider.setAppId('your-app-id-goes-here');
@@ -28,5 +42,4 @@ angular.module('testApp', ['give.pusher'])
             channel.unbind('done');
         });
     });
-
 ```
